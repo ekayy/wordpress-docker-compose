@@ -1,0 +1,1 @@
+"use strict";function debounced(i,e){var u=void 0;return function(){for(var o=arguments.length,n=Array(o),t=0;t<o;t++)n[t]=arguments[t];u&&clearTimeout(u),u=setTimeout(function(){e.apply(void 0,n),u=null},i)}}!function(o){o(window),o("#page"),window.location.href;o(function(){o("body, html").animate({scrollTop:0},0),o("body").hasClass("touch")})}(jQuery);
