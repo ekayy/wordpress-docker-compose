@@ -1,0 +1,24 @@
+/*
+ Theme Name:   Prism Woo
+ Author:       Prism Dream Factory
+ Author URI:   http://prismdreamfactory.com
+ Template:     generatepress
+ Version:      1.0.0
+*/
+
+h1 {
+  @include h1;
+}
+
+h2 {
+  @include h2;
+}
+
+body,
+p {
+  font-size: 1rem;
+}
+
+a {
+  color: $primary;
+}
